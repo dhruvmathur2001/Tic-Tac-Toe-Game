@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Rules</title>
+    <link rel="stylesheet" href="rule-styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#" id="a1">TicTacToe.com</a>
+        <ul>
+            <li><a href="rules.html">How to Play</a></li>
+            <li><a href="game.html">Play Game</a></li>
+            <li><button id="btn">Play Music</button></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="rules">
+            <h1>Rules to Play Tic Tac Toe Game</h1>
+            <p>Tic Tac Toe is a simple and fun game for 2 players. Here are the basic rules:</p>
+            <ul>
+                <li>The game is played on a grid that's 3 squares by 3 squares.</li>
+                <li>Player 1 is X, and Player 2 is O. Players take turns putting their marks in empty squares.</li>
+                <li>The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner.
+                </li>
+                <li>If all 9 squares are full and no player has 3 marks in a row, the game is over. It's a tie.</li>
+            </ul>
+        </div>
+        <p>Example:</p>
+        <div class="example">
+            <span>1) <img src="./Example images/i1.png" alt="" class="images"></span> ------->
+            <span>2)<img src="./Example images/i2.png" alt="" class="images"></span> ------->
+            <span>3)<img src="./Example images/i3.png" alt="" class="images"></span>
+        </div> <br>
+        <div class="example">
+            <span>4)<img src="./Example images/i4.png" alt="" class="images"></span> ------->
+            <span>5)<img src="./Example images/i5.png" alt="" class="images"></span> ------->
+            <span>6)<img src="./Example images/i6.png" alt="" class="images"></span>
+        </div>
+        <p id="p1">Player X Won</p>
+    </div>
+    <script>
+        let music = new Audio("music.mp3")
+        let isMusic = false
+        btn.addEventListener('click', () => {
+            if (!isMusic) {
+                music.play();
+                btn.innerText = "Stop Music"
+                isMusic = true
+            }
+            else {
+                music.pause();
+                btn.innerText = "Play Music"
+                isMusic = false
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#" id="a1">TicTacToe.com</a>
+        <ul>
+
+            <li><a href="rules.html">How to Play </a></li>
+            <li><a href="game.html">Play Game</a></li>
+            <li><button id="btn">Play Music</button></li>
+        </ul>
+    </nav>
+
+    <div class="gamecontainer">
+        <div class="container" id="c1">
+            <div class="box bl-0 bt-0"><span class="boxtext"></span></div>
+            <div class="box bt-0"><span class="boxtext"></span></div>
+            <div class="box bt-0 br-0"><span class="boxtext"></span></div>
+            <div class="box bl-0"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box br-0"><span class="boxtext"></span></div>
+            <div class="box bl-0 bb-0"><span class="boxtext"></span></div>
+            <div class="box bb-0"><span class="boxtext"></span></div>
+            <div class="box bb-0 br-0"><span class="boxtext"></span></div>
+        </div>
+        <div class="gameInfo">
+            <h1>Welcome to TicTacToe Game</h1>
+            <div>
+                <span class="player-info">Player 1: X , Player 2: 0</span><br>
+                <span class="info" id="i1">Turn for X</span><br>
+
+            </div>
+            <div class="imgbox">
+                <img src="excited.gif" alt="" id="img1">
+            </div>
+            <div class="GameReset">
+                <button id="reset">Reset Game</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

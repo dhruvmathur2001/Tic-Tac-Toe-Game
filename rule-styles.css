@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2dcdc;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 65px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 520px;
+    gap: 100px;
+}
+
+#a1 {
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+nav ul a:hover {
+    border: 3px solid white;
+    border-radius: 8px;
+    color: yellow;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 25px;
+}
+
+#btn:hover {
+    border: 3px solid white;
+    border-radius: 8px;
+    color: yellow;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 350px;
+    margin-top: 30px;
+    height: 650px;
+    width: 890px;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+.example {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.images {
+    height: 150px;
+    width: 150px;
+}
+
+#p1 {
+    margin-left: 380px;
+}
